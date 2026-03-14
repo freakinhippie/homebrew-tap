@@ -3,7 +3,7 @@ cask "vaultcreds" do
   name "vaultcreds"
   desc "Vault AWS CLI/SDK external credential process helper"
   homepage "https://github.com/freakinhippie/vault-aws-cli-credentials-go"
-  version "0.2.3"
+  version "0.2.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "vaultcreds" do
   on_macos do
     on_intel do
       url "https://github.com/freakinhippie/vault-aws-cli-credentials-go/releases/download/v#{version}/vaultcreds_#{version}_darwin_x86_64.tar.gz"
-      sha256 "fbe131a01935217d15173e18b43c58493e7d62365fdbf44cd367946c770d59cb"
+      sha256 "2c7a3e6f6c1ad096a66b7179b45acb9f7e2032afe3e88c33698fa35835601a68"
     end
     on_arm do
       url "https://github.com/freakinhippie/vault-aws-cli-credentials-go/releases/download/v#{version}/vaultcreds_#{version}_darwin_arm64.tar.gz"
-      sha256 "96d6ebc19475fe35840b2ce2579d11c755f791db883e98710f2ce2820a5577f6"
+      sha256 "877b7fbd71e7b512984040535ac32da42348a6c4fe907d58f3ba52523f6a7c81"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/freakinhippie/vault-aws-cli-credentials-go/releases/download/v#{version}/vaultcreds_#{version}_linux_x86_64.tar.gz"
-      sha256 "0517218fcb106e3363dbaa6073f5aa9490b359d7ee6b4132c4ecfeaf3248bb40"
+      sha256 "2aeb510ea5b598b236ebf5b555f36b10d592f5751fc7480acf13511dd24a1eec"
     end
     on_arm do
       url "https://github.com/freakinhippie/vault-aws-cli-credentials-go/releases/download/v#{version}/vaultcreds_#{version}_linux_arm64.tar.gz"
-      sha256 "3028f2eb8fb19f9d6a294dc860968db83675215b4935ace133a333e284e397bc"
+      sha256 "08442aaf06430db347ce22d06c028148b5221260263198c085d238e6f450437a"
     end
   end
 
